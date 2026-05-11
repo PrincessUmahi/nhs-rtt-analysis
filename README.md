@@ -62,6 +62,15 @@ nhs-rtt-analysis/
 
 ---
 
+## Power BI Dashboard
+
+Built an interactive NHS RTT Waiting Times Dashboard in Power BI
+using this dataset. Download the .pbix file above to explore.
+
+![NHS RTT Power BI Dashboard](nhs-rtt-analysis_Power_BI_Screenshot_.png)
+
+---
+
 ## Why This Project
 
 I worked directly with people affected by NHS waiting times during my time as a 
