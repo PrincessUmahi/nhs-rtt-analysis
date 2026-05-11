@@ -59,6 +59,8 @@ nhs-rtt-analysis/
 ├── query8_best_performance.csv
 ├── query9_commissioner_incomplete.csv
 └── query10_18_week_breach.csv
+├── NHS_RTT_Dashboard_February_2026.pbix  ← Power BI dashboard
+├── nhs-rtt-analysis_Power_BI_Screenshot_.png  ← Dashboard preview
 
 ---
 
