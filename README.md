@@ -9,8 +9,8 @@ my background in public health and NHS community engagement to practical
 data science skills.
 
 **Data Source:** NHS England RTT Waiting Times Statistics 2025-26  
-**Tool:** MySQL via DBeaver  
-**Skills:** SQL, Database Design, Health Data Analysis
+**Tool:** MySQL via DBeaver | Power BI 
+**Skills:** SQL, Database Design, Health Data Analysis, Power BI, Data Visualisation
 
 ---
 
