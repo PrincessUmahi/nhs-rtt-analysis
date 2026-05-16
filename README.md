@@ -86,8 +86,10 @@ data skills to ask meaningful questions of real NHS data.
 ## About Me
 
 **Adaeze (Princess) Umahi**  
-Medical Doctor | MPH (University of Glasgow) | Aspiring Data Scientist  
-Currently completing the Code First Girls CFGdegree Data Science programme  
+Data Analyst | Medical Doctor (MBBS) | MPH — Epidemiology, Biostatistics & Data Science (University of Glasgow)
+SQL · Python · R · Power BI · Tableau · Microsoft Dynamics 365
+Google Data Analytics Certified | Code First Girls & Data Camp — SQL, Python, AI & Machine Learning | Microsoft Power BI PL-300 (In Progress)
+Building a portfolio at the intersection of health data, business intelligence and real-world analytical impact. 
 
 [LinkedIn](https://www.linkedin.com/in/adaezeumahi/) | 
 [GitHub](https://github.com/PrincessUmahi)
