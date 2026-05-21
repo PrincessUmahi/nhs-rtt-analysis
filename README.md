@@ -55,11 +55,26 @@ nhs-rtt-analysis/
     └── query10_18_week_breach.csv
 ├── NHS_RTT_Dashboard_February_2026.pbix
 └── nhs-rtt-analysis_Power_BI_Screenshot_.png
+├── page1of1_overview.png
+├── page2_breach_analysis.png
+└── page3_root_cause.png
 
 ---
 
 ## Power BI Dashboard
-Built an interactive NHS RTT Waiting Times Dashboard in Power BI using this dataset. Download the .pbix file above to explore the full interactive dashboard.
+## Power BI Dashboard — Updated May 2026
+
+Built an interactive 3-page NHS RTT Waiting Times Dashboard in 
+Power BI using this dataset.
+
+### Page 1 — Overview
+![NHS RTT Dashboard Overview](page1of1_overview.png) (page2of1_overview.png)
+
+### Page 2 — Breach Analysis
+![NHS RTT Breach Analysis](page2_breach_analysis.png)
+
+### Page 3 — Root Cause Analysis
+![Root Cause Analysis](page3_root_cause.png)
 
 ---
 
