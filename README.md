@@ -68,7 +68,7 @@ Built an interactive 3-page NHS RTT Waiting Times Dashboard in
 Power BI using this dataset.
 
 ### Page 1 — Overview
-![NHS RTT Dashboard Overview](page1of1_overview.png) (page2of1_overview.png)
+![NHS RTT Dashboard Overview](page1of1_overview.png)
 
 ### Page 2 — Breach Analysis
 ![NHS RTT Breach Analysis](page2_breach_analysis.png)
