@@ -80,7 +80,7 @@ GROUP BY `Treatment Function Name`
 ORDER BY waiting_52_weeks_or_more DESC
 LIMIT 20;
 
-Query 6: Single National Number
+-- Query 6b: Single national 52-weeks-or-more total
 SELECT 
     SUM(
         `Gt 52 To 53 Weeks SUM 1` + `Gt 53 To 54 Weeks SUM 1` + `Gt 54 To 55 Weeks SUM 1` +
