@@ -53,13 +53,58 @@ AND `Treatment Function Name` != 'Total';
 -- Query 6: Which specialty has the most patients waiting over 52 weeks?
 SELECT 
     `Treatment Function Name`,
-    SUM(`Gt 52 To 53 Weeks SUM 1`) AS waiting_over_52_weeks
+    SUM(
+        `Gt 52 To 53 Weeks SUM 1` + `Gt 53 To 54 Weeks SUM 1` + `Gt 54 To 55 Weeks SUM 1` +
+        `Gt 55 To 56 Weeks SUM 1` + `Gt 56 To 57 Weeks SUM 1` + `Gt 57 To 58 Weeks SUM 1` +
+        `Gt 58 To 59 Weeks SUM 1` + `Gt 59 To 60 Weeks SUM 1` + `Gt 60 To 61 Weeks SUM 1` +
+        `Gt 61 To 62 Weeks SUM 1` + `Gt 62 To 63 Weeks SUM 1` + `Gt 63 To 64 Weeks SUM 1` +
+        `Gt 64 To 65 Weeks SUM 1` + `Gt 65 To 66 Weeks SUM 1` + `Gt 66 To 67 Weeks SUM 1` +
+        `Gt 67 To 68 Weeks SUM 1` + `Gt 68 To 69 Weeks SUM 1` + `Gt 69 To 70 Weeks SUM 1` +
+        `Gt 70 To 71 Weeks SUM 1` + `Gt 71 To 72 Weeks SUM 1` + `Gt 72 To 73 Weeks SUM 1` +
+        `Gt 73 To 74 Weeks SUM 1` + `Gt 74 To 75 Weeks SUM 1` + `Gt 75 To 76 Weeks SUM 1` +
+        `Gt 76 To 77 Weeks SUM 1` + `Gt 77 To 78 Weeks SUM 1` + `Gt 78 To 79 Weeks SUM 1` +
+        `Gt 79 To 80 Weeks SUM 1` + `Gt 80 To 81 Weeks SUM 1` + `Gt 81 To 82 Weeks SUM 1` +
+        `Gt 82 To 83 Weeks SUM 1` + `Gt 83 To 84 Weeks SUM 1` + `Gt 84 To 85 Weeks SUM 1` +
+        `Gt 85 To 86 Weeks SUM 1` + `Gt 86 To 87 Weeks SUM 1` + `Gt 87 To 88 Weeks SUM 1` +
+        `Gt 88 To 89 Weeks SUM 1` + `Gt 89 To 90 Weeks SUM 1` + `Gt 90 To 91 Weeks SUM 1` +
+        `Gt 91 To 92 Weeks SUM 1` + `Gt 92 To 93 Weeks SUM 1` + `Gt 93 To 94 Weeks SUM 1` +
+        `Gt 94 To 95 Weeks SUM 1` + `Gt 95 To 96 Weeks SUM 1` + `Gt 96 To 97 Weeks SUM 1` +
+        `Gt 97 To 98 Weeks SUM 1` + `Gt 98 To 99 Weeks SUM 1` + `Gt 99 To 100 Weeks SUM 1` +
+        `Gt 100 To 101 Weeks SUM 1` + `Gt 101 To 102 Weeks SUM 1` + `Gt 102 To 103 Weeks SUM 1` +
+        `Gt 103 To 104 Weeks SUM 1` + `Gt 104 Weeks SUM 1`
+    ) AS waiting_52_weeks_or_more
 FROM `20260228_RTT_February`
 WHERE `RTT Part Description` = 'Incomplete Pathways'
 AND `Treatment Function Name` != 'Total'
 GROUP BY `Treatment Function Name`
-ORDER BY waiting_over_52_weeks DESC
-LIMIT 15;
+ORDER BY waiting_52_weeks_or_more DESC
+LIMIT 20;
+
+Query 6: Single National Number
+SELECT 
+    SUM(
+        `Gt 52 To 53 Weeks SUM 1` + `Gt 53 To 54 Weeks SUM 1` + `Gt 54 To 55 Weeks SUM 1` +
+        `Gt 55 To 56 Weeks SUM 1` + `Gt 56 To 57 Weeks SUM 1` + `Gt 57 To 58 Weeks SUM 1` +
+        `Gt 58 To 59 Weeks SUM 1` + `Gt 59 To 60 Weeks SUM 1` + `Gt 60 To 61 Weeks SUM 1` +
+        `Gt 61 To 62 Weeks SUM 1` + `Gt 62 To 63 Weeks SUM 1` + `Gt 63 To 64 Weeks SUM 1` +
+        `Gt 64 To 65 Weeks SUM 1` + `Gt 65 To 66 Weeks SUM 1` + `Gt 66 To 67 Weeks SUM 1` +
+        `Gt 67 To 68 Weeks SUM 1` + `Gt 68 To 69 Weeks SUM 1` + `Gt 69 To 70 Weeks SUM 1` +
+        `Gt 70 To 71 Weeks SUM 1` + `Gt 71 To 72 Weeks SUM 1` + `Gt 72 To 73 Weeks SUM 1` +
+        `Gt 73 To 74 Weeks SUM 1` + `Gt 74 To 75 Weeks SUM 1` + `Gt 75 To 76 Weeks SUM 1` +
+        `Gt 76 To 77 Weeks SUM 1` + `Gt 77 To 78 Weeks SUM 1` + `Gt 78 To 79 Weeks SUM 1` +
+        `Gt 79 To 80 Weeks SUM 1` + `Gt 80 To 81 Weeks SUM 1` + `Gt 81 To 82 Weeks SUM 1` +
+        `Gt 82 To 83 Weeks SUM 1` + `Gt 83 To 84 Weeks SUM 1` + `Gt 84 To 85 Weeks SUM 1` +
+        `Gt 85 To 86 Weeks SUM 1` + `Gt 86 To 87 Weeks SUM 1` + `Gt 87 To 88 Weeks SUM 1` +
+        `Gt 88 To 89 Weeks SUM 1` + `Gt 89 To 90 Weeks SUM 1` + `Gt 90 To 91 Weeks SUM 1` +
+        `Gt 91 To 92 Weeks SUM 1` + `Gt 92 To 93 Weeks SUM 1` + `Gt 93 To 94 Weeks SUM 1` +
+        `Gt 94 To 95 Weeks SUM 1` + `Gt 95 To 96 Weeks SUM 1` + `Gt 96 To 97 Weeks SUM 1` +
+        `Gt 97 To 98 Weeks SUM 1` + `Gt 98 To 99 Weeks SUM 1` + `Gt 99 To 100 Weeks SUM 1` +
+        `Gt 100 To 101 Weeks SUM 1` + `Gt 101 To 102 Weeks SUM 1` + `Gt 102 To 103 Weeks SUM 1` +
+        `Gt 103 To 104 Weeks SUM 1` + `Gt 104 Weeks SUM 1`
+    ) AS national_52_weeks_or_more
+FROM `20260228_RTT_February`
+WHERE `RTT Part Description` = 'Incomplete Pathways'
+AND `Treatment Function Name` != 'Total';
 
 -- Query 7: Admitted vs Non-Admitted completed pathways by specialty
 SELECT 
