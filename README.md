@@ -130,10 +130,17 @@ I worked directly with people affected by NHS waiting times during my time as a 
 ## About Me
 
 **Adaeze (Princess) Umahi**
-Data Analyst | MPH — Epidemiology, Biostatistics & Data Science (University of Glasgow) | MBBS
+*Data Analyst · MPH Epidemiology, Biostatistics & Data Science (University of Glasgow) · MBBS*
+
+**Technical skills:**
 SQL · Python · R · Power BI · Tableau · Microsoft Dynamics 365
-Google Data Analytics Certified | Code First Girls & DataCamp — SQL, Python, AI & Machine Learning | Data Analyst with Python (DataCamp) | Machine Learning Fundamentals (DataCamp)
 
-Building a portfolio at the intersection of health data, business intelligence and real-world analytical impact.
+**Certifications:**
+- Google Data Analytics Certificate
+- Code First Girls & DataCamp — SQL, Python, AI & Machine Learning
+- Data Analyst with Python (DataCamp)
+- Machine Learning Fundamentals (DataCamp)
 
-[LinkedIn](https://www.linkedin.com) | [GitHub](https://github.com/PrincessUmahi)
+Building a portfolio at the intersection of health data, business intelligence, and real-world analytical impact.
+
+[LinkedIn](https://www.linkedin.com/) · [GitHub](https://github.com/PrincessUmahi)
